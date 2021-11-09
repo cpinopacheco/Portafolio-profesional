@@ -103,7 +103,7 @@ body.dark {
   gap: 0.5em;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .main {
     grid-template-columns: min-content 1fr; /* min-content indica el minimo tamaño necesario para que el contenido entre */
   }
@@ -139,7 +139,7 @@ body.dark {
 }
 
 .card__title {
-  margin: 0;
+  margin-bottom: 1em;
   font-size: 1.2rem;
 }
 
@@ -152,9 +152,17 @@ body.dark {
   margin-bottom: 0.5em;
 }
 
-.card__title {
+.card__text {
   font-size: 0.9rem;
   line-height: 1.6;
+}
+
+@media screen and (min-width: 768px) {
+  .card--project {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-column: 1 / -1;
+  }
 }
 
 .skills {
@@ -230,8 +238,98 @@ body.dark {
   --skill-bar-length: 100%;
 }
 
+.experience {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  padding: 1em;
+  border: 2px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+
+.project {
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .project {
+    margin-left: 2em;
+  }
+}
+
+.project__tags {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5em 0;
+  font-size: 0.6rem;
+  width: 275px;
+}
+
+@media screen and (min-width: 768px) {
+  .project__tags {
+    width: 325px;
+    font-size: 0.8rem;
+  }
+}
+
+.project__tag {
+  padding: 0.4em 0.8em;
+  border-radius: var(--border-radius);
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 225px;
+}
+
+@media screen and (min-width: 768px) {
+  .buttons {
+    position: absolute;
+    bottom: 1em;
+  }
+}
+
+.button {
+  width: 100px;
+  line-height: 2.5;
+  text-align: center;
+  border-radius: var(--border-radius);
+  transform: var(--transition);
+}
+
+.button--primary {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+}
+
+.button--ghost {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.experience__time {
+  font-size: 0.8rem;
+  margin-bottom: 0.5em;
+}
+
+.experience__job {
+  margin: 0;
+  margin-bottom: 0.5em;
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+
 .icon {
   margin-right: 1em;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 @keyframes skills-bar-fill {
