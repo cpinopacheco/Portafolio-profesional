@@ -19,6 +19,14 @@
         <p id="toggle-text" class="toogle-theme__text">Dark Mode</p>
       </div>
     </div>
+    <div id="flags" class="flags">
+      <div class="flags__item" data-language="es">
+        <img src="assets/icons/cl-flag.svg" alt="" class="flags__img">
+      </div>
+      <div class="flags__item" data-language="en">
+        <img src="assets/icons/gb-flag.svg" alt="" class="flags__img">
+      </div>
+    </div>
     <div id="toggle-colors" class="colors">
       <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue">
 
@@ -43,7 +51,7 @@
         </div>
         <div class="card__header">
           <h2 class="card__title no-margin">Cristian Pino</h2>
-          <p class="card__subtitle">Analista Programador Computacional</p>
+          <p class="card__subtitle" data-section="profile" data-value="rol">Analista Programador Computacional</p>
         </div>
         <div class="car__body">
           <div class="card__link">
@@ -58,10 +66,12 @@
               +56 9 57409074
             </a>
           </div>
-          <p class="card__text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit voluptatibus sunt eos ipsum consequuntur
-            ex ullam, nisi tempore neque. Corporis tenetur commodi perferendis pariatur incidunt delectus repudiandae,
-            assumenda a officiis?
+          <p class="card__text" data-section="profile" data-value="description">
+            Me considero una persona creativa, sociable y proactiva, con excelente disposición para el trabajo en equipo
+            y con
+            muchas ganas de seguir aprendiendo. Me gusta crear, diseñar e innovar, mis conocimientos están orientados al
+            desarrollo
+            web. Mi objetivo es convertirme en un gran Front-End Developer.
           </p>
         </div>
       </article>
@@ -69,13 +79,16 @@
         <h2 class="card__title">Experiences</h2>
         <div class="experience">
           <div class="experience__info">
-            <p class="experience__time">
+            <p class="experience__time" data-section="experience" data-value="first-job-dates">
               Aug 2019 - Aug 2021
             </p>
-            <h3 class="experience__job">Front End Developer</h3>
-            <p class="experience__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus
-              praesentium nam a quidem itaque, non veritatis totam, numquam molestias impedit et officiis dolor?
-              Consectetur iusto architecto nulla. Adipisci, repudiandae dolorem!</p>
+            <h3 class="experience__job" data-section="experience" data-value="first-job-title">Front End Developer
+            </h3>
+            <p class="card__text experience__description" data-section="experience" data-value="first-job-description">
+              Tareas
+              realizadas: Encargado de maquetar, corregir, diseñar y agregar nuevas funcionalidades a sitios web
+              orientados al
+              e-commerce que se les brindan a los clientes.</p>
           </div>
         </div>
       </article>

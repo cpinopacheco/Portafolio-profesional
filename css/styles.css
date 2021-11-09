@@ -68,6 +68,22 @@ body.dark {
   font-size: 0.8rem;
 }
 
+.flags {
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flags__item {
+  width: 30px;
+}
+
+.flags__img {
+  display: block;
+  cursor: pointer;
+}
+
 .colors {
   display: flex;
   justify-content: space-between;
@@ -103,7 +119,7 @@ body.dark {
   gap: 0.5em;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 720px) {
   .main {
     grid-template-columns: min-content 1fr; /* min-content indica el minimo tamaño necesario para que el contenido entre */
   }
@@ -157,7 +173,7 @@ body.dark {
   line-height: 1.6;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 720px) {
   .card--project {
     display: grid;
     grid-template-columns: min-content 1fr;
@@ -252,7 +268,7 @@ body.dark {
   position: relative;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 720px) {
   .project {
     margin-left: 2em;
   }
@@ -286,7 +302,7 @@ body.dark {
   width: 225px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 720px) {
   .buttons {
     position: absolute;
     bottom: 1em;

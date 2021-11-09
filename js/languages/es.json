@@ -1,0 +1,11 @@
+{
+  "profile": {
+    "rol": "Analista Programador Computacional",
+    "description": "Me considero una persona creativa, sociable y proactiva, con excelente disposición para el trabajo en equipo y con muchas ganas de seguir aprendiendo. Me gusta crear, diseñar e innovar, mis conocimientos están orientados al desarrollo web. Mi objetivo es convertirme en un gran Front-End Developer."
+  },
+  "experience": {
+    "first-job-title": "Desarrollador Front-end",
+    "first-job-dates": "Agosto 2019 - Agosto 2021",
+    "first-job-description": "Tareas realizadas: Encargado de maquetar, corregir, diseñar y agregar nuevas funcionalidades a sitios web orientados al e-commerce que se les brindan a los clientes."
+  }
+}
