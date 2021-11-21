@@ -4,8 +4,26 @@
     "description": "I consider myself a creative, sociable and proactive person, with an excellent disposition for teamwork and eager to continue learning. I like to create, design and innovate, my knowledge is oriented to web development. My goal is to become a great Front-End Developer"
   },
   "experience": {
+    "experiences": "Experiences",
     "first-job-title": "Front-End Developer",
     "first-job-dates": "August 2019 - August 2021",
-    "first-job-description": "Tasks performed: Responsible for designing, correcting, designing and adding new functionalities to e-commerce-oriented websites that are provided to customers."
+    "first-job-description": "Tasks performed: Responsible for layout, correcting, designing and adding new functionalities to websites oriented to the e-commerce, in addition to solving customer support."
+  },
+  "hobbies": {
+    "hobbies": "Hobbies"
+  },
+  "skills": {
+    "skills-title": "Skills",
+    "skills-subtitle": "Years of experience"
+  },
+  "projects": {
+    "description-pokeapi-1": "This project allows the user to search for information about the famous creatures known as Pokémon in a different, attractive and fun way.The development of this project arises to put into practice my knowledge in Html, Css, JavasScript. The main objective is to interact, through AJAX, with the external POKÉMON API, to obtain the information it gives us and thus be able to render it on the screen",
+    "description-pokeapi-2": "To go further, I wanted to imitate the features of the original pokedex, to achieve this, add extra features such as an on and off button, sound effects, animations and error control to improve the experience. Finally look for a way that the pokedex will not only show the information on the screen, but also, that it will speak. I achieved that through interaction with the web API known as 'SpeechSynthesis'.",
+    "description-jumping-1": "I have always been interested in video game development, it is for this reason that I take a unity course to enter this wonderful world, it is completely fun to create something from 0 and then see the final result. Choosing the sprites (characters), giving them movement, adding music and sound effects, delivering a playable experience no matter how simple it is is great.",
+    "description-jumping-2": "Jumping is a 2D pixelar style video game, and consists of jumping enemies to accumulate points. The more you advance the difficulty goes up which causes the enemies to advance faster, you lose in the game when you collide with one of the enemies.",
+    "description-jumping-3": "Jumping developed it as the final project of the course, in 2018. When I was studying my career as a programmer, this helped me to understand and learn more about programming in general.",
+    "description-crazy-ball-1": "This is the second video game I develop, the gameplay and purpose of this game is quite simple. the idea of this project came up to learn to work with the planes 'X, Y, Z (Width, Height, Depth)' to develop a video game in 3 Dimensions (3D), in addition to continuing to learn programming.",
+    "description-crazy-ball-2": "Crazy ball consite to touch the yellow squares to accumulate score with the ball that is manipulated through keyboard events to give direction.",
+    "description-crazy-ball-3": "This video game was developed in 2018, after finishing my first video game that same year."
   }
 }

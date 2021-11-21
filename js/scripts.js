@@ -2,9 +2,9 @@ const toggleTheme = document.getElementById("toggle-theme");
 const toggleIcon = document.getElementById("toggle-icon");
 const toggleText = document.getElementById("toggle-text");
 const toggleColors = document.getElementById("toggle-colors");
-const rootStyles = document.documentElement.style;
 const flagsElement = document.getElementById("flags");
 const textsToChange = document.querySelectorAll("[data-section]");
+const rootStyles = document.documentElement.style;
 
 const changeLanguage = async (language) => {
   const requestJson = await fetch(`js/languages/${language}.json`);

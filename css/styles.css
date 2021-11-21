@@ -121,7 +121,7 @@ body.dark {
 
 @media screen and (min-width: 720px) {
   .main {
-    grid-template-columns: min-content 1fr; /* min-content indica el minimo tamaño necesario para que el contenido entre */
+    grid-template-columns: 1fr 1fr; /* min-content indica el minimo tamaño necesario para que el contenido entre */
   }
 }
 
@@ -145,7 +145,6 @@ body.dark {
 }
 
 .card__image-container {
-  min-width: 320px;
   border-radius: var(--border-radius);
   overflow: hidden;
 }
@@ -169,14 +168,18 @@ body.dark {
 }
 
 .card__text {
-  font-size: 0.9rem;
   line-height: 1.6;
+  text-align: justify;
 }
 
 @media screen and (min-width: 720px) {
   .card--project {
     display: grid;
-    grid-template-columns: min-content 1fr;
+    /* grid-template-columns: min-content 1fr; */
+    grid-column: span 4;
+  }
+
+  .card {
     grid-column: 1 / -1;
   }
 }
@@ -194,7 +197,7 @@ body.dark {
 
 .skills__tech {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .skills__item {
@@ -266,25 +269,30 @@ body.dark {
 
 .project {
   position: relative;
+  margin-top: 1rem;
 }
 
 @media screen and (min-width: 720px) {
-  .project {
+  /* .project {
     margin-left: 2em;
-  }
+  } */
 }
 
 .project__tags {
   display: flex;
-  justify-content: space-between;
   margin: 0.5em 0;
   font-size: 0.6rem;
-  width: 275px;
 }
 
+.project__tags span {
+  margin-left: 0.5rem;
+}
+
+.project__tags span:first-child {
+  margin-left: 0;
+}
 @media screen and (min-width: 768px) {
   .project__tags {
-    width: 325px;
     font-size: 0.8rem;
   }
 }
@@ -304,8 +312,72 @@ body.dark {
 
 @media screen and (min-width: 720px) {
   .buttons {
-    position: absolute;
+    /* position: absolute; */
     bottom: 1em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .card--project {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card__image-container {
+    max-width: 100%;
+    height: fit-content;
+  }
+
+  .project {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    grid-template-columns: 1fr 4fr;
+  }
+
+  .card--project {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card--skills {
+    grid-column: span 1;
+  }
+
+  .project {
+    margin-top: 0;
+    padding: 0 2rem;
+    width: 100%;
+  }
+
+  .project {
+    position: relative;
+  }
+
+  .project .buttons {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .content-description {
+    margin-bottom: 4rem;
+  }
+
+  .card--project .card__image-container {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .card--project .card__image-container {
+    max-width: 30%;
   }
 }
 
