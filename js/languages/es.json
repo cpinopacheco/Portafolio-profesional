@@ -11,7 +11,10 @@
   },
   "hobbies": {
     "hobbies": "Pasatiempos",
-    "title-first-activity": "Jugar videojuegos"
+    "title-first-activity": "Viajar",
+    "description-first-activity": "Otras de las grandes experiencias es viajar. Me encanta salir a conocer el mundo que nos rodea, sabes que el mundo el que vivimos está rodeado de lugares maravillosos esperando ser explorados. Me gusta romper la rutina y salir a conocer el mundo en el que vivimos, descubrir nuevos parajes, personas y culturas. Son momentos que difícilmente se pueden olvidar.",
+    "title-second-activity": "Jugar videojuegos",
+    "description-second-activity": "En mi opinión considero los videojuegos un arte, es increíble todo el trabajo que hay detrás del desarrollo de los mismos, es creatividad en estado puro. Guionistas, dibujantes, actores, músicos, programadores, etc. Muchas personas trabajando en conjunto para entregar experiencias y sensaciones unicas a los usuarios. Además, Gracias a la tecnología los videojuegos te permiten jugar de manera online con personas de todas partes del mundo y compartir con ellos aunque estén a varios kilómetros de distancia. ¿Genial no?"
   },
   "skills": {
     "skills-title": "Habilidades",

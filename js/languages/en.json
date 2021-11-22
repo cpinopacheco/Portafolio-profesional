@@ -10,7 +10,11 @@
     "first-job-description": "Tasks performed: Responsible for layout, correcting, designing and adding new functionalities to websites oriented to the e-commerce, in addition to solving customer support."
   },
   "hobbies": {
-    "hobbies": "Hobbies"
+    "hobbies": "Hobbies",
+    "title-first-activity": "Travel",
+    "description-first-activity": "Another great experience is traveling. I love going out to know the world that surrounds us, you know that the world we live in is surrounded by wonderful places waiting to be explored. I like to break the routine and get to know the world in which we live, discover new places, people and cultures. These are moments that can hardly be forgotten.",
+    "title-second-activity": "Play videogames",
+    "description-second-activity": "In my opinion, I consider videogames an art, all the work behind their development is incredible, it is creativity in its purest form. Screenwriters, cartoonists, actors, musicians, programmers, etc. Many people working together to deliver unique experiences and sensations to users. In addition, thanks to technology, videogames allow you to play online with people from all over the world and share with them even if they are several kilometers away. Cool no?"
   },
   "skills": {
     "skills-title": "Skills",

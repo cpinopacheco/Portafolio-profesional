@@ -44,6 +44,9 @@ body.dark {
   padding: 0 1.5em;
   background-color: var(--bg-card-color);
   transition: var(--transition);
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .switches {
@@ -115,7 +118,7 @@ body.dark {
 
 .main {
   display: grid;
-  padding: 2em;
+  padding: 1em;
   gap: 0.5em;
 }
 
@@ -418,6 +421,10 @@ body.dark {
 
 .no-margin {
   margin: 0;
+}
+
+.container-hobbies {
+  margin-bottom: 2rem;
 }
 
 @keyframes skills-bar-fill {
