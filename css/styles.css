@@ -427,6 +427,39 @@ body.dark {
   margin-bottom: 2rem;
 }
 
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.scroll-top-btn {
+  position: fixed;
+  z-index: 999;
+  bottom: 1rem;
+  right: 1rem;
+  width: 4rem;
+  height: 4rem;
+  font-size: 3.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 0;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.scroll-top-btn i {
+  position: relative;
+  left: 0rem;
+  bottom: 0.25rem;
+}
+
 @keyframes skills-bar-fill {
   to {
     transform: translateX(var(--skill-bar-length));

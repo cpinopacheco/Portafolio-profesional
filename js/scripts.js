@@ -4,7 +4,32 @@ const toggleText = document.getElementById("toggle-text");
 const toggleColors = document.getElementById("toggle-colors");
 const flagsElement = document.getElementById("flags");
 const textsToChange = document.querySelectorAll("[data-section]");
+const scrollButton = document.querySelector(".scroll-top-btn");
 const rootStyles = document.documentElement.style;
+
+const scrollTopButton = () => {
+  window.addEventListener("scroll", (e) => {
+    let scrollTop = document.documentElement.scrollTop;
+    if (scrollTop > 900) {
+      console.log("entra");
+      scrollButton.classList.remove("hidden");
+    } else {
+      console.log("sale");
+      scrollButton.classList.add("hidden");
+    }
+  });
+};
+
+scrollTopButton();
+
+scrollButton.addEventListener("click", (e) => {
+  if (e.target === scrollButton || e.target.matches(".scroll-top-btn i")) {
+    window.scrollTo({
+      behavior: "smooth",
+      top: 0,
+    });
+  }
+});
 
 const changeLanguage = async (language) => {
   const requestJson = await fetch(`js/languages/${language}.json`);
