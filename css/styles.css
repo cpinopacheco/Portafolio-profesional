@@ -439,7 +439,7 @@ body.dark {
   right: 1rem;
   width: 4rem;
   height: 4rem;
-  font-size: 3.5rem;
+  font-size: 3rem;
   border-radius: 50%;
   cursor: pointer;
   border: 0;
@@ -452,12 +452,6 @@ body.dark {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-}
-
-.scroll-top-btn i {
-  position: relative;
-  left: 0rem;
-  bottom: 0.25rem;
 }
 
 @keyframes skills-bar-fill {
