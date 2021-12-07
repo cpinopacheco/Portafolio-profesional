@@ -11,10 +11,8 @@ const scrollTopButton = () => {
   window.addEventListener("scroll", (e) => {
     let scrollTop = document.documentElement.scrollTop;
     if (scrollTop > 900) {
-      console.log("entra");
       scrollButton.classList.remove("hidden");
     } else {
-      console.log("sale");
       scrollButton.classList.add("hidden");
     }
   });

@@ -136,7 +136,7 @@ body.dark {
 @media screen and (min-width: 720px) {
   .column--right {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, min-content);
+    grid-template-rows: repeat(6, min-content);
     align-items: flex-start;
   }
 }
@@ -275,20 +275,15 @@ body.dark {
   margin-top: 1rem;
 }
 
-@media screen and (min-width: 720px) {
-  /* .project {
-    margin-left: 2em;
-  } */
-}
-
 .project__tags {
   display: flex;
-  margin: 0.5em 0;
+  flex-wrap: wrap;
   font-size: 0.6rem;
 }
 
 .project__tags span {
-  margin-left: 0.5rem;
+  /* margin-left: 0.5rem; */
+  margin: 0.5rem 0.5rem 0.5rem 0;
 }
 
 .project__tags span:first-child {
@@ -443,6 +438,7 @@ body.dark {
   border-radius: 50%;
   cursor: pointer;
   border: 0;
+  outline: 0;
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -452,6 +448,10 @@ body.dark {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+
+.scroll-top-btn:focus {
+  outline: none;
 }
 
 @keyframes skills-bar-fill {

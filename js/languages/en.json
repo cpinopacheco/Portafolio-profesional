@@ -28,6 +28,13 @@
     "description-jumping-3": "Jumping developed it as the final project of the course, in 2018. When I was studying my career as a programmer, this helped me to understand and learn more about programming in general.",
     "description-crazy-ball-1": "This is the second video game I develop, the gameplay and purpose of this game is quite simple. the idea of this project came up to learn to work with the planes 'X, Y, Z (Width, Height, Depth)' to develop a video game in 3 Dimensions (3D), in addition to continuing to learn programming.",
     "description-crazy-ball-2": "Crazy ball consite to touch the yellow squares to accumulate score with the ball that is manipulated through keyboard events to give direction.",
-    "description-crazy-ball-3": "This video game was developed in 2018, after finishing my first video game that same year."
+    "description-crazy-ball-3": "This video game was developed in 2018, after finishing my first video game that same year.",
+    "title-digital-curriculum": "Digital Curriculum",
+    "description-digital-curriculum-1": "I was looking to have something interesting to design and be able to practice my knowledge in CSS Grid, that's when the idea came to me of taking my CV in PDF format, to something completely digital. This would serve as an exercise to work with a grid system and make a responsive site.",
+    "description-digital-curriculum-2": "The phone number and email address found at the top, in the header of the resume, are linked to provide a quick and easy contact. Like, in the footer you will find a direct link to my professional portfolio. Also, add a button that allows the user to change the entire hue of the site to a dark or light mode, saving these settings in the browser's local storage, so that it will load the next time they visit the site again.",
+    "title-popular-movies": "Popular Movies",
+    "description-popular-movies-1": "This project was created to continue putting my knowledge into practice, this time I wanted to make a responsive website, which had a search engine and pagination. To achieve this, work with the consumption of The Movie DataBase (TMDB) API.",
+    "description-popular-movies-2": "To put it in context, (TMDB) is a movie and TV database created by your community. Each piece of data has been added by the community since 2008.",
+    "description-popular-movies-3": "Through this project it is possible to obtain and consult the most popular films today, obtaining relevant information from each of them. All site functionality runs asynchronously in a single HTML file."
   }
 }
