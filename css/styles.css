@@ -260,6 +260,20 @@ body.dark {
   --skill-bar-length: 100%;
 }
 
+.container-logo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 720px) {
+  .container-logo {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
 .experience {
   display: flex;
   align-items: flex-start;
