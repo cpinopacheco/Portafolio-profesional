@@ -14,7 +14,9 @@
     "title-first-activity": "Travel",
     "description-first-activity": "I love getting to know the world around us, knowing that the world we live in is surrounded by wonderful places waiting to be explored. I like to break the routine and go out to discover new places, people and cultures. These are moments in life that can hardly be forgotten.",
     "title-second-activity": "Play videogames",
-    "description-second-activity": "In my opinion, I consider videogames an art, all the work behind their development is incredible, it is creativity in its purest form. Screenwriters, cartoonists, actors, musicians, programmers, etc. Many people working together to deliver unique experiences and sensations to users. In addition, thanks to technology, videogames allow you to play online with people from all over the world and share with them even if they are several kilometers away. Cool no?"
+    "description-second-activity": "In my opinion, I consider videogames an art, all the work behind their development is incredible, it is creativity in its purest form. Screenwriters, cartoonists, actors, musicians, programmers, etc. Many people working together to deliver unique experiences and sensations to users. In addition, thanks to technology, videogames allow you to play online with people from all over the world and share with them even if they are several kilometers away. Cool no?",
+    "title-third-activity": "Draw",
+    "description-third-activity": "As a child I like to draw, at first I drew characters from the Dragon Ball Z series, it was an anime of inspiration at that time. I remember making comics, creating characters and stories. Over time I began to try other types of drawings, landscapes, graffiti, portraits and much more. I always made an effort to improve every day, and today I am happy with the results obtained. As an adult, free time is scarcer, it is difficult to find a moment to take a paper and a pencil to start creating. But as difficult as it may be, there is always a time to enjoy the things we like to do."
   },
   "skills": {
     "skills-title": "Skills",
@@ -27,7 +29,7 @@
     "description-jumping-2": "Jumping is a 2D pixelar style video game, and consists of jumping enemies to accumulate points. The more you advance the difficulty goes up which causes the enemies to advance faster, you lose in the game when you collide with one of the enemies.",
     "description-jumping-3": "Jumping developed it as the final project of the course, in 2018. When I was studying my career as a programmer, this helped me to understand and learn more about programming in general.",
     "description-crazy-ball-1": "This is the second video game I develop, the gameplay and purpose of this game is quite simple. the idea of this project came up to learn to work with the planes 'X, Y, Z (Width, Height, Depth)' to develop a video game in 3 Dimensions (3D), in addition to continuing to learn programming.",
-    "description-crazy-ball-2": "Crazy ball consite to touch the yellow squares to accumulate score with the ball that is manipulated through keyboard events to give direction.",
+    "description-crazy-ball-2": "Crazy ball consiste to touch the yellow squares to accumulate score with the ball that is manipulated through keyboard events to give direction.",
     "description-crazy-ball-3": "This video game was developed in 2018, after finishing my first video game that same year.",
     "title-digital-curriculum": "Digital Curriculum",
     "description-digital-curriculum-1": "I was looking to have something interesting to lay out and thus be able to practice my knowledge in CSS Grid and responsive web design, that's where the idea came to transform my CV in PDF format, to something completely digital. This would serve as an exercise to work with a grid system and make a completely responsive site.",

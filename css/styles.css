@@ -126,7 +126,7 @@ body.dark {
 
 @media screen and (min-width: 720px) {
   .main {
-    grid-template-columns: 1fr 1fr; /* min-content indica el minimo tamaño necesario para que el contenido entre */
+    grid-template-columns: 1fr 1fr; /* min-content indica el mínimo tamaño necesario para que el contenido entre */
   }
 }
 
@@ -143,8 +143,8 @@ body.dark {
 @media screen and (min-width: 720px) {
   .column--right {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, min-content);
     align-items: flex-start;
+    max-height: 100vh;
   }
 
   .column__title {
@@ -362,7 +362,7 @@ body.dark {
 
 @media screen and (min-width: 1200px) {
   .main {
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 3fr;
   }
 
   .card--project {
