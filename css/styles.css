@@ -414,13 +414,17 @@ body.dark {
 
 .button--primary {
   background-color: var(--primary-color);
-  color: var(--bg-color);
+  color: var(--bg-card-color);
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .button--ghost {
   background-color: transparent;
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .experience__time {
