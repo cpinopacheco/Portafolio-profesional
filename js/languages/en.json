@@ -49,7 +49,12 @@
     "description-patient-manager-1": "This project was born with the intention of practicing the basic knowledge of React JS, such as state management, components, communication between components through props, hooks, conditional rendering, etc.",
     "description-patient-manager-2": "It is a simple application that allows the administration of patients through the basic operations of a CRUD, that is, it allows to Create, Read, Update and Delete patient records in order to be able to manage the information. This app stores the records in the localStorage since it is a Front-End oriented project.",
     "bootstrap-layout": "bootstrap-layout",
+    "my-web-site": "My web site",
     "description-bootstrap-layout-1": "Layout made with the aim of practicing my knowledge in this CSS Framework such as Bootstrap, as well as putting into practice the new features that this technology brought in its most recent version, Bootstrap 5.",
-    "description-bootstrap-layout-2": "It is a simple layout, where bootstrap's characteristic column system is implemented, allowing the site to be fully responsive. In addition to the use of some of its components such as the navbar and the slider."
+    "description-bootstrap-layout-2": "It is a simple layout, where bootstrap's characteristic column system is implemented, allowing the site to be fully responsive. In addition to the use of some of its components such as the navbar and the slider.",
+    "description-my-site-web-1": "To continue putting my knowledge in React JS into practice, I wanted to develop this project, which consists of creating my own web page.",
+    "description-my-site-web-2": "The main objective of this application is that you can find personal information and know a little more about me. You can find personal, professional and contact information.",
+    "description-my-site-web-3": "The application has a welcome page which will allow you to later enter the main content, which is divided into three sections. Personal, professional and contact, which you can access through a side menu. You will have the option of being able to listen to background music to take your experience to the limit if you wish, that type of music is what I listened to to motivate me and be able to carry out this project.",
+    "description-my-site-web-4": "Have a good experience!!"
   }
 }

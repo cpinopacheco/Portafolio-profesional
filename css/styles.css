@@ -417,6 +417,12 @@ body.dark {
   color: var(--bg-card-color);
   font-weight: bold;
   text-transform: uppercase;
+  transition: 0.2s ease-in-out;
+}
+
+.button--primary:hover,
+.button--ghost:hover {
+  box-shadow: 0px 0px 15px var(--primary-color);
 }
 
 .button--ghost {
@@ -425,6 +431,7 @@ body.dark {
   color: var(--primary-color);
   font-weight: bold;
   text-transform: uppercase;
+  transition: 0.3s ease-in-out;
 }
 
 .experience__time {

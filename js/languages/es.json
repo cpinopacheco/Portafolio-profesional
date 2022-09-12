@@ -50,6 +50,11 @@
     "description-patient-manager-2": "Es una aplicación simple que permite la administración de pacientes a traves de las operaciones básicas de un CRUD, es decir, permite Crear, Leer, Actualizar y Eliminar registros de pacientes con el objetivo de poder administrar la información. Esta app almacena los registro en el localStorage ya que es un proyecto orientado al Front-End.",
     "bootstrap-layout": "Maquetación Bootstrap",
     "description-bootstrap-layout-1": "Maquetación realizada con el objetivo de practicar mis conocimientos en en este Framework de Css como lo es Bootstrap, como tambien poner en practica las nuevas características que trajo está tecnología en su versión mas reciente, Bootstrap 5.",
-    "description-bootstrap-layout-2": "Es una maquetación sencilla, donde se implementa el sistema de columnas tan característico de bootstrap permitiendo que el sitio sea completamente responsivo. Ademas de la utilización de algunos de sus componentes como el navbar y el slider."
+    "description-bootstrap-layout-2": "Es una maquetación sencilla, donde se implementa el sistema de columnas tan característico de bootstrap permitiendo que el sitio sea completamente responsivo. Ademas de la utilización de algunos de sus componentes como el navbar y el slider.",
+    "my-web-site": "Mi sitio web",
+    "description-my-site-web-1": "Para seguir poniendo en practica mis conocimientos en React JS, quise desarrollar este proyecto  Que consiste en la creación de mi propia pagina web",
+    "description-my-site-web-2": "El objetivo principal de esta aplicación es que puedas encontrar información personal y saber un poquito mas sobre mí. Podrás encontrar datos personales, profesionales y de contacto.",
+    "description-my-site-web-3": "La aplicación cuenta con una página de bienvenida la que te permitirá posteriormente ingresar al contenido principal, el cual se divide en tres secciones. Personal, profesional y contacto, a las que podrás acceder a traves de un menu lateral. Tendrás la opción de poder escuchar música de fondo para llevar tu experiencia al limite si asi lo deseas, ese tipo música es la que escuchaba para motivarme y poder llevar a cabo este proyecto.",
+    "description-my-site-web-4": "Que tengas una buena experiencia!!"
   }
 }
