@@ -55,6 +55,20 @@
     "description-my-site-web-1": "To continue putting my knowledge in React JS into practice, I wanted to develop this project, which consists of creating my own web page.",
     "description-my-site-web-2": "The main objective of this application is that you can find personal information and know a little more about me. You can find personal, professional and contact information.",
     "description-my-site-web-3": "The application has a welcome page which will allow you to later enter the main content, which is divided into three sections. Personal, professional and contact, which you can access through a side menu. You will have the option of being able to listen to background music to take your experience to the limit if you wish, that type of music is what I listened to to motivate me and be able to carry out this project.",
-    "description-my-site-web-4": "Have a good experience!!"
+    "description-my-site-web-4": "Have a good experience!!",
+    "rick&morty-app": "Rick and Morty challenge",
+    "description-r&m-1": "This project was born from the development of a test to apply for a position as a front-end developer.",
+    "description-r&m-2": "The challenge is to develop an application with React JS as the main technology.",
+    "description-r&m-3": "The points described below are some of the most important requirements requested in the test and that the application should have.",
+    "item-1": "Have a main layout that nests the views.",
+    "item-2": "It has to be responsive.",
+    "item-3": "It must contain a navigation menu to the views.",
+    "item-4": "You must get the data through the Rick and Morty API.",
+    "item-5": "It must have pagination. (optional)",
+    "item-6": "It must contain a search engine that filters the results.",
+    "item-7": "Clicking on a result should open a modal with details of what is selected.",
+    "item-8": "The results must be able to be added to favorites.",
+    "item-9": "The data should persist when reloading the page.",
+    "item-10": "Good design. (optional)"
   }
 }

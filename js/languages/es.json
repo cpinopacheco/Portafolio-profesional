@@ -55,6 +55,20 @@
     "description-my-site-web-1": "Para seguir poniendo en practica mis conocimientos en React JS, quise desarrollar este proyecto  Que consiste en la creación de mi propia pagina web",
     "description-my-site-web-2": "El objetivo principal de esta aplicación es que puedas encontrar información personal y saber un poquito mas sobre mí. Podrás encontrar datos personales, profesionales y de contacto.",
     "description-my-site-web-3": "La aplicación cuenta con una página de bienvenida la que te permitirá posteriormente ingresar al contenido principal, el cual se divide en tres secciones. Personal, profesional y contacto, a las que podrás acceder a traves de un menu lateral. Tendrás la opción de poder escuchar música de fondo para llevar tu experiencia al limite si asi lo deseas, ese tipo música es la que escuchaba para motivarme y poder llevar a cabo este proyecto.",
-    "description-my-site-web-4": "Que tengas una buena experiencia!!"
+    "description-my-site-web-4": "Que tengas una buena experiencia!!",
+    "rick&morty-app": "Desafío Rick y Morty",
+    "description-r&m-1": "Este proyecto nace a partir del desarrollo de una prueba para postular a un cargo como desarrollador front-end.",
+    "description-r&m-2": "El desafío consiste en en desarrollar una aplicación con React JS como tecnología principal.",
+    "description-r&m-3": " Los puntos descritos a continuación son algunos de los requerimientos mas importantes solicitados en la prueba y que debiese tener la aplicación.",
+    "item-1": "Contar con un layout principal que anide las vistas.",
+    "item-2": "Tiene que ser responsivo.",
+    "item-3": "Debe contener un menu de navegación hacia las vistas.",
+    "item-4": "Debe obtener los datos a traves de la API de rick and Morty.",
+    "item-5": "Debe contar con paginación. (opcional)",
+    "item-6": "Debe contener un buscador que filtre los resultados.",
+    "item-7": "Al hacer click en un resultado debe abrir un modal con detalles de lo seleccionado.",
+    "item-8": "Los resultados deben poder ser agregados a favoritos.",
+    "item-9": "Los datos deber persistir al recargar la página.",
+    "item-10": "Buen diseño. (opcional)"
   }
 }
