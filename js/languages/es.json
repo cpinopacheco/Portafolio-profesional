@@ -5,9 +5,12 @@
   },
   "experience": {
     "experiences": "Experiencias",
-    "first-job-title": "Desarrollador Front-end",
-    "first-job-dates": "Agosto 2019 - Agosto 2021",
-    "first-job-description": "Tareas realizadas: Encargado de maquetar, corregir, diseñar y agregar nuevas funcionalidades a sitios web orientados al e-commerce que se les brindan a los clientes."
+    "job-title-two": "Desarrollador Front-end",
+    "job-dates-two": "Enero 2022 - Mayo 2023",
+    "job-description-two": "Tareas realizadas: Encargado de traspasar diseños y maquetar sitios web a los clientes, desarrollando interfaces de usuario responsivas, además de actualizar y mantener los sitios.",
+    "job-title-one": "Desarrollador Front-end",
+    "job-dates-one": "Agosto 2019 - Agosto 2021",
+    "job-description-one": "Tareas realizadas: Encargado de maquetar, corregir, diseñar y agregar nuevas funcionalidades a sitios web orientados al e-commerce que se les brindan a los clientes."
   },
   "hobbies": {
     "hobbies": "Pasatiempos",

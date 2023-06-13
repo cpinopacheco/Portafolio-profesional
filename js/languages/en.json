@@ -5,9 +5,12 @@
   },
   "experience": {
     "experiences": "Experiences",
-    "first-job-title": "Front-End Developer",
-    "first-job-dates": "August 2019 - August 2021",
-    "first-job-description": "Tasks performed: Responsible for layout, correcting, designing and adding new functionalities to websites oriented to the e-commerce, in addition to solving customer support."
+    "job-title-two": "Front-end Developer",
+    "job-dates-two": "January 2022 - May 2023",
+    "job-description-two": "Tasks performed: Responsible for transferring designs and layout of websites to clients, developing responsive user interfaces, as well as updating and maintaining the sites.",
+    "job-title-one": "Front-end Developer",
+    "job-dates-one": "August 2019 - August 2021",
+    "job-description-one": "Tasks performed: Responsible for layout, correcting, designing and adding new functionalities to websites oriented to the e-commerce, in addition to solving customer support."
   },
   "hobbies": {
     "hobbies": "Hobbies",
@@ -70,5 +73,8 @@
     "item-8": "The results must be able to be added to favorites.",
     "item-9": "The data should persist when reloading the page.",
     "item-10": "Good design. (optional)"
+  },
+  "buttons": {
+    "code-button": "code"
   }
 }
