@@ -169,7 +169,7 @@ body.dark {
 
 .card__title {
   margin-bottom: 1em;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .card__subtitle {
@@ -395,7 +395,7 @@ body.dark {
   }
 
   .card--project .card__image-container {
-    max-width: 50%;
+    max-width: 40%;
   }
 }
 
